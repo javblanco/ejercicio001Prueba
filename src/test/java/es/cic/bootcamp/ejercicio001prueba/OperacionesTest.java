@@ -13,13 +13,13 @@ class OperacionesTest {
 
 	@Test
 	void testSuma() {
-		
 		Operaciones operaciones = new Operaciones();
 		
 		int a = 4;
-		int n2 = 5;
+		int n2 = 5; 
 		
 		int resultado = operaciones.suma(a, n2);
+		
 		assertEquals(9, resultado, "La suma no es correcta");
 	}
 }
